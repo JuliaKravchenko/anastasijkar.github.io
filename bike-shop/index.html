@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="author" content="Rudych Anastasiia">
+	<title>Bike Shop | Task from 28.10</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet-m.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet-s.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet-xs.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+</head>
+<body>
+	<section id="slider">
+		<header>
+			<img src="img/logo.png" alt="logo" class="logo">
+			<nav>
+				<ul class="menu">
+					<li>
+						<a href="#">Bicycles</a>
+						<ul class="menu-item">
+							<li><a href="#">Fixed / Single Speed</a></li>
+							<li><a href="#">City Bikes</a></li>
+							<li><a href="#">Premium series</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Parts</a>
+						<ul class="menu-item">
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">One more item</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Accessories</a>
+						<ul class="menu-item">
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">One more item</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Extras</a>
+						<ul class="menu-item">
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">One more item</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><img src="img/basket-icon.png" alt="cart"></a></li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Handmade bicycle</h1>
+		<p>You <span>create</span> the <span>journey</span>, we supply the <span>parts</span>.</p>
+		<a role="button" class="btn-main" href="#">Shop bikes</a>
+		<div class="icon"><img src="img/scroll-icon.png" alt="icon"></div>
+		<div class="slider-toggler"></div>
+		<a class="arrow arrow-back" href="#"><img src="img/arrow-left.png" alt="back"></a><a class="arrow arrow-next arrow-inactive" href="#"><img src="img/arrow-right.png" alt="next"></a>
+	</section>
+
+	<section id="categories">
+		<h2>Categories</h2>
+		<div class="img-cat-container">
+			<div class="img-cat" id="fs-speed">
+				<h3>Fixed / Single Speed</h3>
+				Are You ready for the 27.5 Revolution?<br>
+			</div>
+			<div class="img-cat img-cat-active" id="premium">
+				<h3>Premium series</h3>
+				Exclusive Bike Components<br>
+				<!--<a role="button" class="btn-cat" href="#">Go to store</a>-->
+			</div>
+			<div class="img-cat" id="city">
+				<h3>City Bikes</h3>
+				Street Playground<br>
+			</div> 
+		</div>
+	</section>
+
+	<section id="popular">
+		<h2>Popular bikes</h2>
+		<div class="item-pop-container">
+			<div class="pop-item">
+				<img src="img/fixedGear.png" alt="Fixed Gear">
+				<p class="item-pop-info"><strong>Fixed Gear</strong>
+					<br>$249.00
+				<a role="button" class="btn-pop" href="#">Buy</a>
+				<div class="option"><a role="button">Option</a><img src="img/arrow-down.png" alt=">">
+					<ul class="option-item">
+						<li>option</li>
+						<li>option</li>
+					</ul>
+				</div>
+			</div>
+			<div class="pop-item">
+				<img src="img/bigBoyUltra.png" alt="Big Boy Ultra">
+				<p class="item-pop-info"><strong>Big Boy Ultra</strong>
+					<br>$249.00
+				<a role="button" class="btn-pop" href="#">Buy</a>
+				<div class="option"><a role="button">Option</a><img src="img/arrow-down.png" alt=">">
+					<ul class="option-item">
+						<li>option</li>
+						<li>option</li>
+					</ul>
+				</div>
+			</div>
+			<div class="pop-item">
+				<img src="img/sanchaez.png" alt="Sanchaez">
+				<p class="item-pop-info"><strong>Sanchaez</strong>
+					<br>$249.00
+				<a role="button" class="btn-pop" href="#">Buy</a>
+				<div class="option"><a role="button">Option</a><img src="img/arrow-down.png" alt=">">
+					<ul class="option-item">
+						<li>option</li>
+						<li>option</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<h2>Contact Us</h2>
+		<p>Please contact us for all inquiries and purchase options.</p>
+		<form name="contactForm" accept-charset="UTF-8">
+		<input type="text" id="firstName" name="firstName" placeholder="NAME" pattern="[A-Za-z]{2,}-?[A-Za-z]{2,}" required>
+		<input type="text" id="lastName" name="lastName" placeholder="SURNAME" pattern="[A-Za-z]{2,}-?[A-Za-z]{2,}">
+		<br><input type="text" id="email" name="email" placeholder="USER@DOMAIN.COM" pattern="[A-Za-z\-\.]{30}@[A-Za-z\-\.]{20}\.[A-Za-z]{2-3}">
+		<br><textarea id="message" name="message" rows="5" placeholder="MESSAGE"></textarea>
+		<br><a href="#" class="btn-submit">Send</a>
+		</form>
+	</section>
+	
+	<footer>
+		<div class="logo"><img src="img/logo-footer.png" alt="logo"></div>
+		<nav>
+			<ul class="menu-footer">
+				<li><a href="#">Bicycles</a></li>
+				<li><a href="#">Parts</a></li>
+				<li><a href="#">Accessories</a></li>
+				<li><a href="#">Extras</a></li>
+			</ul>
+		</nav>	
+	</footer>
+</body>
+</html>
