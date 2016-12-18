@@ -1,4 +1,4 @@
-var currentItem;
+var currentItem = 0;
 
 function next() {
 	var elems = document.getElementsByClassName('carousel__item');
@@ -22,6 +22,5 @@ function prev() {
 
 window.onload = function () {
 	refreshBag();
-	currentItem = 0;
 	setInterval(next, 6000);
 }
