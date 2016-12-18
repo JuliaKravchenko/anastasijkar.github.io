@@ -1,0 +1,144 @@
+.filter {
+	text-align: left;
+    padding-left: 41px;
+    padding-top: 6px;
+    height: 57px;
+}
+
+.filter__dropdown {
+	display: inline-block;
+	font-size: 6px;
+    position: relative;
+    top: -2px;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    padding-top: 24px;
+    vertical-align: center;
+}
+
+.filter__item, #fashion, .item-selected {
+	width: 105px;
+	background-color: #fff;
+    padding-top: 0;
+    height: 0;
+}
+
+#fashion {
+	width: 99px;
+}
+
+#color {
+	width: 57px;
+}
+
+#size {
+	width: 51px;
+}
+
+.item-selected .filter__title {
+	display: none;
+}
+
+.filter__title, .item-selected .filter__value {
+	margin: 0;
+	display: inline;
+}
+
+.filter__item::after {
+	content: "";
+}
+
+.filter__item::before {
+	content: ", ";
+}
+
+.item-selected::before {
+	position: relative;
+    top: 16px;
+    left: -7px;
+}
+
+.filter__item:first-child::before {
+	content: "";
+}
+
+.filter__value:hover {
+	text-decoration: underline;
+}
+
+.main {
+	margin-top: 39px;
+}
+.products {
+	margin-bottom: 137px;
+}
+
+.products__item:nth-child(7), .products__item:nth-child(8) {
+	margin-top: 0;
+	margin-bottom: 95px;
+}
+
+.products__item:nth-child(4), .products__item:nth-child(5), .products__item:nth-child(6) {
+	margin-top: 303px;
+	margin-bottom: 74px;
+}
+
+.products__banner {
+	margin-left: 0;
+    top: 680px;
+    width: 100%;
+}
+
+.products__banner strong {
+    width: 63%;
+    line-height: 34px;
+    display: inline-block;
+    letter-spacing: 0.03em;
+    font-size: 20px;
+}
+
+.products__banner p {
+    margin-top: 11px;
+    width: 75%;
+    margin-left: 12.5%;
+    line-height: 29px;
+}
+
+.products__buyers-choice {
+	width: 205px;
+    height: 290px;
+    margin-top: -292px;
+}
+
+.products__buyers-choice-title {
+	margin-top: 202px;
+}
+
+.item-buyers-choice .products__img-text {
+    margin-top: -290px;
+}
+
+.banners {
+	height: 251px;
+}
+
+.banners a {
+	height: inherit;
+}
+
+.banners a:first-child {
+	width: 68.5%;
+}
+
+.banners a:nth-child(2) {
+	width: 31.5%;
+}
+
+.banners a:first-child span, .banners a:nth-child(2) span  {
+	background-size: contain;
+}
+
+.banners a:last-child {
+	display: none;
+}

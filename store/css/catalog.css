@@ -1,0 +1,195 @@
+
+
+.filter {
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	height: 63px;
+	width: 100%;
+}
+
+.filter__dropdown {
+	display: none;
+}
+
+.filter__item {
+	padding-top: 15px;
+	height: 48px;
+	display: inline-block;
+	margin: 0 -2px;
+	width: 16.6%;
+	text-align: left;
+	cursor: pointer;
+}
+
+.filter__item:hover .filter__title {
+	text-decoration: underline;
+}
+
+.filter__item::after {
+	content: '\25BC';
+    display: inline-block;
+    font-size: 6px;
+    margin-right: 16px;
+    float: right;
+    margin-top: -22px;
+}
+
+.item-selected::after {
+    margin-top: 2px;
+}
+
+#fashion {
+	width: 17%;
+}
+
+.filter__title {
+	margin-bottom: -5px;
+    display: block;
+    margin-left: 27%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.item-selected {
+	padding-top: 9px;
+	height: 54px;
+	background-color: #f7f7f7;
+}
+
+.item-selected .filter__title {
+	display: inline-block;
+	margin-top: 0;
+    font-size: 12px;
+}
+
+.item-selected .filter__value {
+	display: inline-block;
+	margin-left: 27%;
+	font-weight: bold;
+	color: #f14a58;
+	margin-top: 7px;
+    font-size: 16px;
+}
+
+.filter__options {
+	display: none;
+}
+
+/* main */
+
+.main {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.item-new .products__price::after {
+	content: "New";
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+	color: #757575;
+	margin-left: 5px;
+}
+
+.products__banner {
+    display: block;
+    position: absolute;
+    top: 764px;
+    margin-left: -4.7%;
+    width: 100%;
+}
+
+.products__item:nth-child(5), .products__item:nth-child(6), .products__item:nth-child(7), .products__item:nth-child(8) {
+	margin-top: 147px;
+	margin-bottom: 100px;
+}
+
+.products__banner strong {
+	font-weight: bold;
+    letter-spacing: 0.005em;
+    font-size: 25px;
+}
+
+.products__banner span {
+	color: #f14a58;
+}
+
+.products__banner p {
+	margin-top: 23px;
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+}
+
+.products__colours:link, .products__colours:visited {
+	display: block;
+	margin-top: 10px;
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+	color: #757575;
+}
+
+.products__colours:hover {
+	text-decoration: underline;
+}
+
+.products__colours:active {
+	color: #000;
+}
+
+.products__price-old {
+	color: #757575;
+}
+
+.products__sale {
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+}
+
+.products__button:link {
+	margin-top: 6px;
+}
+
+.banners {
+	border-top: 1px solid #e5e5e5;
+	margin: 0px;
+	width: 100%;
+	height: 383px;
+}
+
+.banners a {
+	display: inline-block;
+    height: 383px;
+}
+.banners a span {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.banners a:first-child {
+	background-color: #324063;
+	width: 50.5%;
+}
+.banners a:first-child span {
+    background: url(../img/adidas-blue.png) no-repeat;
+    background-position: center;
+}
+
+.banners a:nth-child(2) {
+	width: 24.9%;
+	background-color: #c9cbcd;
+}
+.banners a:nth-child(2) span {
+    background: url(../img/repair-patches.png) no-repeat;
+    background-position: center;
+}
+
+.banners a:nth-child(3) {
+	background-color: #fff;
+	width: 24.6%;
+}
+.banners a:nth-child(3) {
+	background: url(../img/sale.png) no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="Rudych Anastasiia">
+	<title>Catalog</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/catalog.css">
+
+	<style type="text/css">
+		@import url(css/tablet/common.css) only screen and (max-width:1024px);
+		@import url(css/tablet/catalog.css) only screen and (max-width:1024px);
+
+		@import url(css/mobile/common.css) only screen and (max-width:769px);
+		@import url(css/mobile/catalog.css) only screen and (max-width:769px);
+	</style>
+</head>
+<body>
+	<header>
+		<h1>T<span>emp</span>l<span>ate</span></h1>
+		<div class="header__bag"><a href="cart.html"><img class="header__bag-icon"alt="bag" src="img/bag.png">Bag <span class="header__bag-price"></span> <span class="header__bag-count"></span></a></div>
+		<div class="header__sign-up"><a href="#">E-mail sign up</a></div>
+		<div class="header__menu-icon" id="menu-icon" onclick="menuToggle()"><div></div></div>
+		<nav class="header__menu">
+			<a href="#" class="header__menu-active">Women</a>
+			<a href="#">Men</a>
+			<a href="#">Handbags</a>
+			<a href="#">Accessories</a>
+			<a href="#">Sale</a>
+			<a href="#">New Arrivals</a>
+			<a href="#">Clearance</a>
+			<a href="#">Store Locator</a>
+			<div class="header__search"><input type="text" placeholder="Style Name"><input type="submit" value=""></div>
+		</nav>
+	</header>
+	<div class="filter">
+		<div class="filter__item item-selected" id="fashion">
+			<span class="filter__title">Fashion</span>
+			<br><span class="filter__value">Casual style</span>
+			<ul class="filter__options">
+				<li>Casual style</li>
+				<li>Classical</li>
+				<li>Sport</li>
+				<li>Vintage</li>
+			</ul>
+		</div>
+		<div class="filter__item" id="type">
+			<span class="filter__title">Product type</span>
+			<br><span class="filter__value"></span>
+			<ul class="filter__options">
+				<li>Jackets</li>
+				<li>Dresses</li>
+				<li>Shirts</li>
+				<li>Jeans</li>
+				<li>Shoes</li>
+			</ul>
+		</div>
+		<div class="filter__item" id="color">
+			<span class="filter__title">Color</span>
+			<br><span class="filter__value"></span>
+			<ul class="filter__options">
+				<li>Black</li>
+				<li>Blue</li>
+				<li>Red</li>
+				<li>Green</li>
+				<li>Golden</li>
+			</ul>
+		</div>
+		<div class="filter__item item-selected" id="brand">
+			<span class="filter__title">Brand</span>
+			<br><span class="filter__value">Antipodium</span>
+			<ul class="filter__options">
+				<li>Antiporium</li>
+				<li>Adidas</li>
+				<li>New Balance</li>
+				<li>River Island</li>
+			</ul>
+		</div>
+		<div class="filter__item item-selected" id="size">
+			<span class="filter__title">Size</span>
+			<br><span class="filter__value">UK 18</span>
+			<ul class="filter__options">
+				<li>UK 18</li>
+				<li>UK 18L</li>
+				<li>UK 20</li>
+				<li>UK 20L</li>
+				<li>UK 20S</li>
+				<li>UK 22L</li>
+			</ul>
+		</div>
+		<div class="filter__item" id="price">
+			<span class="filter__title">Price-range</span>
+			<br><span class="filter__value"></span>
+			<ul class="filter__options">
+				<li>To &#163;99</li>
+				<li>&#163;100 - &#163;299</li>
+				<li>From &#163;300</li>
+			</ul>
+		</div>
+		<div class="filter__dropdown">&#9660;</div>
+	</div>
+
+	<div class="main">
+		<section class="products" id="cat">
+
+			<div class="products__banner">
+				<strong>Last weekend <span>extra 50%</span> off on all reduced boots and shoulder bags</strong>
+				<p>This offer is valid in-store and online. Prices displayed reflect this additional discount. This offer ends at 11:59 GMT on March 1st 2015</p>
+			</div>
+
+			<div class="products__item-container">
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat1.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Only Skinny Jeans</a>
+					<p class="products__price">&#163;65.50</p>
+				</div>
+				<div class="products__item item-new">
+					<a href="#" class="products__img-link">
+						<img src="img/arrivals4.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Neck Knitted Jumper</a>
+					<p class="products__price">&#163;76.25</p>
+				</div>
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/arrivals1.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Turtle Neck Jumper in Rib</a>
+					<p class="products__price">&#163;130.25</p>
+				</div>
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat4.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">With Patchwork Crochet</a>
+					<p class="products__price">&#163;80.60</p>
+				</div>
+
+				<div class="products__item item-buyers-choice">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat5.png">
+						<span class="products__buyers-choice"><span class="products__buyers-choice-title">Levi's</span><span class="products__buyers-choice-desc">Buyer's choice</span></span>
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Levi's Jeans for Women</a>
+					<a class="products__colours" href="#">More colours</a>
+				</div>
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat6.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Boyfriend T-Shirt with Bohemian Print</a>
+					<p class="products__price"><span class="products__price-old">&#163;120.00 <span class="products__sale">-25%</span></span> &#163;90.00</p>
+				</div>
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat7.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Colour Block</a>
+					<p class="products__price">&#163;550.50</p>
+				</div>
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat8.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Monki Festival Knitted</a>
+					<p class="products__price">&#163;24.75</p>
+				</div>
+
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/arrivals3.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Oversized Cardigan</a>
+					<p class="products__price" href="#">&#163;90.00</p>
+				</div>
+				<div class="products__item item-new">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat10.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Paul &amp; Joe Sister Jumper with Neon Trims</a>
+					<p class="products__price">&#163;19.75</p>
+				</div>
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat11.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Only Busted Knee Jean</a>
+					<p class="products__price">&#163;140.50</p>
+				</div>
+				<div class="products__item">
+					<a href="#" class="products__img-link">
+						<img src="img/catalog/cat12.png">
+						<span class="products__img-text"><span>View item</span></span>
+					</a>
+					<a class="products__title" href="#">Boyfriend T-Shirt with Bohemian Print</a>
+					<p class="products__price">&#163;85.75</p>
+				</div>
+
+			</div>
+			<div role="button" class="products__button">Show more</div>
+		</section>
+	</div>
+
+	<section class="banners">
+		<a href="#" title="Adidas Blue"><span></span></a><a href="#" title="Repair Patches"><span></span></a><a href="#" title="Sale"><span></span></a></div>
+	</section>
+
+		<section class="links">
+			<div class="links__quick-links">
+				<h2>Quick Links</h2>
+				<ul>
+					<li><a href="#">Store locator</a></li>
+					<li><a href="#">Gift cards</a></li>
+					<li><a href="#">Size guide</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</div>
+			<div class="links__customer-care">
+				<h2>Customer Care</h2>
+				<ul>
+					<li><a href="#">Customer service</a></li>
+					<li><a href="#">Track my order</a></li>
+					<li><a href="#">Return Policy</a></li>
+					<li><a href="#">Shipping &amp; delivery</a></li>
+					<li><a href="#">Contact us</a></li>
+					<li><a href="#">Careers</a></li>
+				</ul>
+			</div>
+			<div class="links__contacts">
+				<div class="links__questions">
+					<h2>Questions</h2>
+					<div class="links__twi-icon"></div>Tweet us <a href="#">@template</a>
+				</div>
+				<div class="links__phone">
+					<h2>Order by phone</h2>
+					8-800-409-47-12
+				</div>
+				<p>We have own delivery service which operates major European cities. Delivery time - 3-5 days.</p>
+				<div class="links__social">
+					<a class="links__fb-icon" href="#"></a>
+					<a class="links__twi-icon" href="#"></a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer__copy">&copy; 2010-2015, The Template Group Inc.</div>
+			<div class="footer__share"><a href="#">Share</a> <span class="footer__shared-count-arrow"></span><span class="footer__shared-count">1437</span></div>
+			<div class="footer__links">
+				<a href="#">Legal notice</a>
+				<a href="#">Privacy policy</a>
+				<a href="#">Site map</a>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="js/common/menu.js"></script>
+		<script type="text/javascript" src="js/common/refreshBag.js"></script>
+		<script type="text/javascript" src="js/catalog.js"></script>
+</body>
+</html>

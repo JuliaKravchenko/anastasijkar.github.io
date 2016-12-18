@@ -1,0 +1,125 @@
+.main {
+    margin-top: 30px;
+}
+
+.navigation {
+	padding-left: 68px;
+}
+
+.navigation a {
+    margin-top: 22px;
+    letter-spacing: 0.03em;
+}
+
+.item {
+	padding: 0 30px;
+	margin-bottom: 139px;
+}
+
+.item__photos {
+	width: 100%;
+	text-align: center;
+    margin-left: 1%;
+    height: 100%;
+}
+
+.item__main-photo {
+    width: 516px;
+}
+
+.item__thumbnails {
+    width: 174px;
+    margin-left: -5px;
+    position: relative;
+    top: -2px;
+    margin-top: 0;
+}
+
+.item__thumbnails span {
+	display: block;
+	width: 174px;
+    height: 115px;
+}
+
+.item__info {
+	width: 100%;
+	margin-left: 5px;
+	text-align: center;
+	margin-top: 19px;
+}
+
+.item__info h2 {
+	font-size: 21px;
+}
+
+.item__desc {
+	width: 65%;
+    font-size: 13px;
+    margin-left: 17.5%;
+    position: relative;
+    top: 48px;
+    letter-spacing: 0.01em;
+}
+
+.item__price {
+	margin-top: 0;
+	position: relative;
+    top: -48px;
+    font-size: 18px;
+}
+
+.item__params {
+	margin-top: 68px;
+}
+#color {
+	margin-top: 56px;
+}
+
+.item__params-title {
+	margin-left: 5px;
+    width: 8%;
+}
+#color .item__params-title {
+    width: 8%;
+}
+
+.item__params-size {
+	margin-right: 20px;
+}
+
+.item__params-color {
+	margin-right: 14px;
+}
+
+.item__button {
+    padding: 23px 71px 22px;
+    margin-top: 100px;
+    margin-left: 9.5%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banners {
+	height: 251px;
+}
+
+.banners a {
+	height: inherit;
+}
+
+.banners a:first-child {
+	width: 68.5%;
+}
+
+.banners a:nth-child(2) {
+	width: 31.5%;
+}
+
+.banners a:first-child span, .banners a:nth-child(2) span  {
+	background-size: contain;
+}
+
+.banners a:last-child {
+	display: none;
+}

@@ -1,0 +1,56 @@
+.navigation h2 {
+	margin-top: 22px;
+    font-size: 20px;
+    margin-left: -22px;
+    letter-spacing: 0.03em;
+}
+
+.main {
+	text-align: left;
+}
+
+.item {
+	width: 44%;
+    margin-left: 5%;
+    margin-right: -3.5%;
+    margin-bottom: 53px;
+}
+
+.item__img, .item__img-link, .item__img-link img, .item__img-text {
+	width: 145px;
+}
+
+.item__img-text {
+	height: 205px;
+	margin-top: -207px;
+}
+
+.item__img-text span {
+	margin-top: 94px;
+    font-size: 20px;
+}
+
+.item__info {
+	width: 38.5%;
+}
+
+.item__title:link, .item__title:visited {
+	letter-spacing: 0.05em;
+}
+
+.notification {
+	margin-top: 12px;
+}
+
+.purchase__button:link, .purchase__button:visited {
+	padding: 25px 87px 20px;
+    font-size: 20px;
+}
+
+.purchase {
+	text-align: center;
+}
+
+.purchase__total {
+	margin-top: 21px;
+}

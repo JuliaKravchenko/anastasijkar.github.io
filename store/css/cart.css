@@ -1,0 +1,228 @@
+.navigation {
+	border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    height: 63px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 90px;
+    font-size: 25px;
+}
+
+.navigation h2 {
+	margin-top: 17px;
+    display: inline-block;
+}
+
+.main {
+    margin-top: 30px;
+    min-height: 200px;
+}
+
+.message {
+    margin-top: 65px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    margin-left: 6px;
+    margin-bottom: 48px;
+}
+
+.item__img, .item__info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item__img {
+    width: 240px;
+}
+
+.item__info {
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    padding: 9px 20px;
+}
+
+.item__img-link:link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.item__img-text {
+    color: #fff;
+    cursor: pointer;
+    display: table;
+    background-color: rgba(94, 102, 108, 0);
+    width: 240px;
+    height: 340px;
+    position: relative;
+    margin-top: -342px;
+    -webkit-transition: background-color .3s ease-in;
+    -moz-transition: background-color .3s ease-in;
+    -o-transition: background-color .3s ease-in;
+    transition: background-color .3s ease-in;
+}
+
+.item__img-text span {
+    display: block;
+    text-align: center;
+    margin-top: 165px;
+    font-weight: bold;
+    font-size: 24px;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in;
+    -moz-transition: opacity .3s ease-in;
+    -o-transition: opacity .3s ease-in;
+    transition: opacity .3s ease-in;
+
+}
+
+.item__img-link:hover .item__img-text {
+    background-color: rgba(94, 102, 108, 0.5);
+} 
+
+.item__img-link:hover .item__img-text span {
+    opacity: 1;
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.item__img-text span:hover {
+    color: #f14a58;
+}
+
+.item__img-link:active span {
+    text-decoration: underline;
+}
+
+.item__price {
+    display: block;
+    margin-top: 27px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.item__title:link, .item__title:visited {
+    line-height: 23px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+
+.item__title:hover {
+    color: #f14a58;
+    text-decoration: none;
+}
+
+.item__title:active {
+    text-decoration: underline;
+}
+
+.item__remove {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #f14a58;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 33px;
+    font-size: 14px;
+}
+
+.item__remove:hover {
+    text-decoration: underline;
+}
+
+.item__info p {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.notification {
+    background-color: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    font-weight: bold;
+    margin-top: 26px;
+    font-size: 12px;
+    padding-top: 12px;
+    height: 28px;
+}
+
+.purchase {
+    width: 100%;
+    margin-bottom: 59px;
+}
+
+.purchase__empty {
+    float: left;
+    margin-left: 38px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 29px;
+}
+
+.purchase__empty:hover {
+    color: #f14a58;
+    cursor: pointer;
+}
+
+.purchase__empty:active {
+    text-decoration: underline
+}
+
+.purchase__button {
+    cursor: pointer;
+    display: inline-block;
+    height: 23px;
+    padding: 23px 118px 28px;
+    margin-left: 16px;
+    border: 1px solid #e5e5e5;
+    font-weight: bold;
+    font-size: 24px;
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear;
+}
+
+.purchase__button:hover {
+    text-decoration: none;
+    color: #f14a58;
+    border-color: #f14a58;
+}
+
+.purchase__button:active {
+    background-color: #f4f4f4;
+}
+
+/* inactive state */
+.button-inactive {
+    color: #aaaaaa;
+}
+.button-inactive:hover {
+    color: #aaaaaa;
+    border-color: #aaaaaa;
+}
+
+
+.purchase__total {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 24px;
+}
+
+.purchase__cost {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 29px;
+}

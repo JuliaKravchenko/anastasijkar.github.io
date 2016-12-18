@@ -1,0 +1,95 @@
+.carousel {
+	height: 850px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.carousel__item {
+	width: 100vw;
+	height: 850px;
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: 4s linear;
+  	-moz-transition: 4s linear;
+  	-o-transition: 4s linear;
+  	transition: 4s linear;
+  	position: absolute;
+  	left: 0;
+  	z-index: auto;
+}
+
+.carousel__item:first-child {
+	background: url(../img/desktop/slider1.png) no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	opacity: 1;
+	z-index: 100;
+}
+
+.carousel__item:nth-child(2) {
+	background: url(../img/desktop/slider2.png) no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.carousel__item:nth-child(3) {
+	background: url(../img/desktop/slider3.png) no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.carousel__left, .carousel__right {
+	position: absolute;
+	width: 100px;
+    top: 120px;
+	height: 850px;
+	background: rgba(224, 224, 224, 0);
+	z-index: 350;
+	cursor: pointer;
+	-webkit-transition: .2s linear;
+  	-moz-transition: .2s linear;
+  	-o-transition: .2s linear;
+  	transition: .2s linear;
+}
+
+.carousel__right {
+	right: 0;
+}
+
+.carousel__left:hover, .carousel__right:hover {
+	background: rgba(224, 224, 224, 0.4);
+}
+
+.banners {
+	border-top: 1px solid #e5e5e5;
+	height: 29vw;
+	margin: 0px;
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.banners a {
+	display: inline-block;
+    height: 100%;
+    background: url(../img/nike-red.png) no-repeat;
+    background-size: contain;
+    width: 50%;
+}
+
+.banners a:nth-child(2) {
+	background-color: #f7f7f7;
+	background: url(../img/caps-hats.png) no-repeat;
+	background-size: cover;
+}
+
+.banners img {
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+

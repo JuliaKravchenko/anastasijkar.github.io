@@ -1,0 +1,113 @@
+.navigation {
+    padding-left: 20px;
+    font-size: 12px;
+    height: 53px;
+}
+.navigation a {
+	margin-top: 19px;
+}
+
+.main {
+    margin-top: 14px;
+}
+
+.item {
+    padding: 0 20px;
+    text-align:center;
+    margin-bottom: 99px;
+}
+
+.item__photos {
+	margin-left: 0;
+    width: 100%;
+    display: inline-block;
+    max-width: 500px;
+}
+
+.item__photos img {
+	display: inline-block;
+}
+
+.item__main-photo {
+	width: 100%;
+}
+
+.item__thumbnails {
+	display: inline-block;
+	width: 100%;
+	margin-left: 0;
+	margin-top: -3px;
+	height: initial;
+}
+
+.item__thumbnails span {
+	display: inline-block;
+	width: calc(100% / 3);
+	max-height: none;
+    height: 100%;
+}
+
+.item__thumbnails img {
+	width: 100%;
+}
+
+.item__info {
+	margin-left: -2px;
+    margin-top: 47px;
+    letter-spacing: 0.01em;
+}
+
+.item__price {
+    margin-top: -78px;
+    position: static;
+}
+
+.item__desc {
+    margin-left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.item__params {
+    margin-top: 149px;
+    text-align: left;
+}
+
+.item__params-title {
+    margin-left: 1px;
+    width: 16%;
+}
+
+.item__button {
+    padding: 20px 60px 17px;
+    margin-top: 61px;
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+#color .item__params-title {
+    width: 14%;
+}
+
+.banners {
+    height: 237px;
+}
+
+.banners a:first-child {
+    width: 100%;
+}
+
+.banners a:first-child span {
+    background-size: contain;
+}
+
+.banners a:nth-child(2) {
+    display: none;
+}
+
+@media only screen and (max-width:420px) {
+
+    .banners a:first-child span {
+        background-size: cover;
+    }
+}

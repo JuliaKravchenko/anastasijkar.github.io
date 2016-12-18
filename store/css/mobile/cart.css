@@ -1,0 +1,94 @@
+.navigation {
+	padding-left: 56px;
+	height: 53px;
+}
+
+.navigation h2 {
+    margin-top: 16px;
+    letter-spacing: -0.03em;
+}
+
+.main {
+    margin-top: 15px;
+}
+
+.item {
+	margin-right: 0;
+	width: 95%;
+    margin-bottom: 22px;
+}
+
+.item__img, .item__img-link img {
+	width: 157px;
+}
+
+.item__img-text {
+    height: 222px;
+    margin-top: -224px;
+}
+
+.item__price {
+    margin-top: 7px;
+    font-size: 12px;
+    margin-left: -5px;
+}
+
+.item__info {
+    width: 29.5%;
+}
+
+.item__title:link, .item__title:visited {
+    letter-spacing: 0.03em;
+    font-size: 12px;
+    margin-top: 1px;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.item__info p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.item__remove {
+    margin-top: 30px;
+    font-size: 11px;
+}
+
+.notification {
+    margin-top: 12px;
+    letter-spacing: 0.035em;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 9px 18px 0;
+    height: 44px;
+}
+
+.purchase {
+    margin-bottom: 36px;
+}
+
+.purchase__empty {
+    float: left;
+    margin-left: 19px;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.purchase__button, .purchase__button {
+    padding: 19px 28px 18px;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 17px;
+    letter-spacing: 0.03em;
+}
+
+.purchase__total {
+    margin-top: 19px;
+    font-size: 11px;
+}
+
+.purchase__cost {
+    font-size: 15px;
+    margin-right: 2px;
