@@ -16,6 +16,22 @@ header * {
 	display: inline-block;
 }
 
+h1 a:link, h1 a:visited, h1 span {
+	-webkit-transition: .1s linear;
+  	-moz-transition: .1s linear;
+  	-o-transition: .1s linear;
+  	transition: .1s linear;
+}
+
+h1:hover a:link, h1:hover a:visited, h1:hover span {
+	text-decoration: none;
+	color: #f14a58;
+}
+
+h1:active a:link, h1:active a:visited, h1:active span {
+	text-decoration: underline;
+}
+
 a:link, a:visited {
 	text-decoration: none;
 	color: #000;
