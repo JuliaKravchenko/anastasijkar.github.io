@@ -135,6 +135,7 @@ h1 {
     height: 13px;
     border: none;
     background: url(../img/search.png);
+    cursor: pointer;
 }
 
 /* main */
