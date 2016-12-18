@@ -7,6 +7,7 @@
 
 .carousel__item {
 	width: 100vw;
+	min-width: 375px;
 	height: 135.5vw;
 }
 
@@ -84,14 +85,3 @@
     margin-left: 0;
 }
 
-@media only screen and (max-width: 375px) {
-
-	.carousel__item {
-		width: 375px;
-	}
-
-	.carousel__right, .header__menu-icon {
-		right: auto;
-		left: 320px;
-	}
-}
