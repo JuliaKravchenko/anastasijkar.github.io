@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modeling of Systems</title>
+    <link rel="stylesheet" href="css/chartist.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,900' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  <div class="popup">
+    <div class="popup__window">
+      <div class="popup__close">x</div>
+      <textarea resize="none"></textarea>
+    </div>
+  </div>
+
+    <div class="upper">
+      <input type="checkbox" id="savePrev" name="savePrev"><label for="savePrev">Save previous chart</label>
+      <div class="option clean">&#10008;&nbsp;&nbsp;<span>Clean</span></div>
+      <div class="option report">&#9993;&nbsp;&nbsp;<span>Form a report</span></div>
+    </div>
+    <h1>Body cooling process</h1>
+	  <div class="ct-chart"></div>
+    <div class="params">
+      <div class="params__item">
+        <label for="temp">Initial T (<sup>o</sup>C):</label><input type="text" id="temp" name="temp" value="5">
+      </div>
+      <div class="params__item">
+        <label for="koeff">Heat transfer coeffitient:</label>
+        <select id="koeff" name="koeff">
+          <option value="430">&nbsp;430&nbsp;&nbsp;(silver)</option>
+          <option value="92">&nbsp;&nbsp;92&nbsp;&nbsp;&nbsp;(iron)</option>
+          <option value="47">&nbsp;&nbsp;47&nbsp;&nbsp;&nbsp;(steel)</option>
+        </select>
+      </div>
+      <div class="params__item">
+        <label for="env">Environment's T (<sup>o</sup>C):</label><input type="text" id="env" name="env" value="0">
+      </div>
+      <div class="params__item">
+        <label for="time">Time (h):</label><input type="number" id="time" name="time" value="0.03">
+      </div>
+      <div class="params__item">
+        <label for="delta">&Delta;t (h):</label><input type="number" id="delta" name="delta" value="0.005">
+      </div>
+    </div>
+
+    <script src="js/chartist.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
